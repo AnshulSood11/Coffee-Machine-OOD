@@ -90,7 +90,6 @@ public class CoffeeMachineTest {
             Set<String> output = coffeeMachine.startPreparing();
             assertTrue(correctOutputs.contains(output));
             Set<String> expectedQuantities = new HashSet<>(Arrays.asList("green_mixture : 150", "sugar_syrup : 200", "hot_water : 1500", "hot_milk : 2500", "tea_leaves_syrup : 550", "ginger_syrup : 500"));
-            System.out.println(coffeeMachine.getInventorySummary());
             assertEquals(coffeeMachine.getInventorySummary(), expectedQuantities);
 
         } catch (Exception e) {
