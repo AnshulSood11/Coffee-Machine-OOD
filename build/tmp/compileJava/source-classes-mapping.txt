@@ -1,0 +1,14 @@
+app/humit/backendtest/InventoryItem.java
+ app.humit.backendtest.InventoryItem
+app/humit/backendtest/Beverage.java
+ app.humit.backendtest.Beverage
+app/humit/backendtest/Ingredient.java
+ app.humit.backendtest.Ingredient
+app/humit/backendtest/PrepareBeverage.java
+ app.humit.backendtest.PrepareBeverage
+app/humit/backendtest/Inventory.java
+ app.humit.backendtest.Inventory
+app/humit/backendtest/Main.java
+ app.humit.backendtest.Main
+app/humit/backendtest/CoffeeMachine.java
+ app.humit.backendtest.CoffeeMachine
