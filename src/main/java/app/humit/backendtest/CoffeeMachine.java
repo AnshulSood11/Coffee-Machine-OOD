@@ -9,7 +9,7 @@ import java.util.concurrent.*;
 
 public class CoffeeMachine {
     private final int numOutlets;
-    private final Logger log = LoggerFactory.getLogger(InventoryItem.class.getSimpleName());
+    private final Logger log = LoggerFactory.getLogger(CoffeeMachine.class.getSimpleName());
     private final List<Beverage> beverages;
     private final Inventory inventory;
 

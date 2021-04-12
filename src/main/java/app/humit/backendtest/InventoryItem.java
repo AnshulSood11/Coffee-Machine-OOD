@@ -15,7 +15,7 @@ public class InventoryItem extends Ingredient {
         super(name, quantity);
         if (quantity < 0)
             throw new IllegalArgumentException("Quantity can not be negative");
-        lowInStock = quantity <= 0;
+        lowInStock = quantity == 0;
         this.itemLock = new ReentrantLock();
     }
 
