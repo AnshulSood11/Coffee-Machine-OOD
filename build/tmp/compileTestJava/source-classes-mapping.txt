@@ -1,6 +1,0 @@
-app/humit/backendtest/InventoryItemTest.java
- app.humit.backendtest.InventoryItemTest
-app/humit/backendtest/InventoryTest.java
- app.humit.backendtest.InventoryTest
-app/humit/backendtest/CoffeeMachineTest.java
- app.humit.backendtest.CoffeeMachineTest
