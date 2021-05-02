@@ -84,7 +84,7 @@ green_tea cannot be prepared because green_mixture is not available
 hot_tea cannot be prepared because item hot_water is not sufficient
 ```
 
-## Scoring Criteria​ / ​Expectation
+## Expectations
 
 ● To simplify the problem – we will exclude the following issues from the scope:
 ○ The solution does not have to scale out. We only need to design a solution to run
@@ -94,15 +94,4 @@ and reliable file systems to store the objects in.
 ■ This machine can be assumed to have multiple CPUs
 ○ The solution does not have to solve storage reliability issues (assume that the underlying file system is reliable).
 ● Please don’t expose any API, we need a functional test case.
- 
-## Submission​
 
-1) Please submit the working code. We will be running test cases provided by you.
-2) Express the design/algorithm as part of the comment blocks around the code. Please
-take care of the readability part of it.
-3) We are looking for the following:
-a) Good design (an efficient, correct, and simple way to solve this problem).
-b) Correct implementation of the design.
-4) You can choose any languages you are comfortable in. (preferably Python or Golang)
-6) Please submit your solution to ​**ishaan@humit.app**​ in CC.
-Good Luck!
